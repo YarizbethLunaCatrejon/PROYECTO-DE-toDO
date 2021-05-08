@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 300px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    background-color: brown;
+    background-image: url(images/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    position: relative;
+}
+
+#fecha{
+    color:white;
+    font-size: 1,2;
+    position:absolute;
+    left: 10px;
+    bottom: 10px;
+}
+
+.tareainput{
+    width: 90x;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0px auto 0px auto;
+}
+
+.listo{
+    width: 95%;
+    margin-top: 10px;
+}
